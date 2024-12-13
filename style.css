@@ -105,6 +105,7 @@ section{
 }
 header.sticky{
     background: #fff;
+    padding:10px 10%;
 }
 .fruits{
     padding: 12px 10px;
@@ -260,6 +261,20 @@ footer i{
 @media (max-width:600px){
     :root{
         --h1-font: 2.7rem;
+    }
+    .logo img{
+        width: 40px;
+    }
+    .btn1{
+        background: var(--h1-color);
+        color: #fff;
+        font-size: 16px;
+        display: inline-block;
+        padding: 7px 12px;
+        border: 2px solid transparent;
+        border-radius: 6px;
+        transition: all .50s ease;
+        margin-right: 20px;
     }
 }
 
